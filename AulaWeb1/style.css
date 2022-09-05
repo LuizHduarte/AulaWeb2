@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: large;
+}
+
+p{
+    font-size: larger;
+    margin: 20px;
+    background-color: aquamarine;
+    font-family: 'Roboto';
+}
+
+p:hover{
+    color: yellow;
+}
+
+.tituloImportante{
+    background-color: beige;
+}
+
+.subTituloImportante{
+    background-color: coral;
+}
+
+.imagem{
+    border: 5px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: blueviolet;
+}
+
+#figura1{
+    width: 20%;
+    height: 20%;
+}
+
+#figura1:hover{
+    color: red;
+}
+
+#figura2{
+    width: 15%;
+    height: 15%;
+}
+
+#textoDestacado{
+    color: violet;
+    font-size: 1rem;
+}
